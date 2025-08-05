@@ -30,7 +30,7 @@ function incrementString (strng) {
     let string = arr.map(x => Number(x)).map(x=> String(x)).lastIndexOf('NaN');
     let values = arr.slice(string + 1);
     let result = Number(values.join('')) + 1;
-    const add = result.toString().padStart(values.length, '0')
+    const add = result.toString().padStart(values.length, '0');
     let express = arr.slice(0, string+1);
     express.push(add);
     return express.join('')
