@@ -1,3 +1,4 @@
 # Codewars
-
-Collection of All codewars
+```bash
+All the codewars done
+```
