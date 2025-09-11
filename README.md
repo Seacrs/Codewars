@@ -1,4 +1,4 @@
 # Codewars
 ```bash
-All the codewars done
+Some of the codewars i've done
 ```
