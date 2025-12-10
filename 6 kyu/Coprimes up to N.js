@@ -24,8 +24,10 @@ function coprimes(n){
         if(k === 0) return n;
         else return gcd(k, n % k);
     }
+    
     for(let i = 0; i < n; i++){
         if(gcd(n,i) === 1) arr.push(i);
     }
+    
     return arr;
 };
